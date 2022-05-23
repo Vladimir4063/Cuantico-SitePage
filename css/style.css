@@ -10,6 +10,13 @@
     background-color: blue;
 }
 
-.footer{
-    background-color: maroon;
+.footer {
+    background-color: #051B7B;
+    padding: 2.2rem;
+    text-align: center;
+}
+
+footer p {
+    color: aliceblue;
+    margin: 0;
 }
