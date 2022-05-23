@@ -16,7 +16,13 @@
     text-align: center;
 }
 
-footer p {
+.textFooterCopyright {
     color: aliceblue;
     margin: 0;
+}
+
+.textFooterLinkWebSite{
+    color: aliceblue;
+    margin: 0;
+    padding-bottom: 40px;
 }
