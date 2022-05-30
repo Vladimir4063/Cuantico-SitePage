@@ -2,12 +2,35 @@
     background-color: green;
 }
 
-.jobs{
-    background-color: red;
+#text{
+    background-color: aliceblue;
+    text-align: center;
 }
 
-.info{
-    background-color: blue;
+.jobs{
+    background:linear-gradient(45deg,red,blue)
+}
+
+.info{                  
+    background: linear-gradient(-90deg,blue,maroon);
+}
+
+/*.bg-info{
+    position: relative; /*CESAR
+
+}
+
+#home{
+    position: relative; /*CESAR
+    min-height: 750px;
+}*/
+
+.img{                     /*CESAR*/
+    border-radius: 20px;
+}
+
+.footer{
+    background-color: maroon;
 }
 
 .footer {
