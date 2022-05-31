@@ -31,7 +31,8 @@
 }
 
 .footer {
-    background-color: #051B7B;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 31%, rgba(5,108,129,1) 100%);
     padding: 2.2rem;
     text-align: center;
 }
@@ -45,4 +46,9 @@
     color: aliceblue;
     margin: 0;
     padding-bottom: 40px;
+
+}
+
+a {
+    text-decoration: none;
 }
