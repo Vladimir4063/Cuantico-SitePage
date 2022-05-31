@@ -2,7 +2,7 @@
     background-color: green;
 }
 
-#text{                                   /*estilo a fondo de texto*/
+#text{                                   /*estilo a fondo de texto CESAR*/
     background-color: aliceblue;
     text-align: center;
     margin-top: 5rem;
@@ -10,17 +10,21 @@
     border-radius: 20px;
 }
 
-.jobs{                                     /*degrade de color al fondo de la division*/
+/*
+.jobs{                                     degrade de color al fondo de la division CESAR
     background:linear-gradient(45deg,red,blue)
     
 
 }
 
-.info{                                      /*degrade de color al fondo de la division*/
+.info{                                      degrade de color al fondo de la division CESAR
+    background: linear-gradient(-90deg,blue,maroon);
+}*/
+
+#section{                                   /*background section CESAR*/
     background: linear-gradient(-90deg,blue,maroon);
 }
-
-.img{                     /*se estiliza las imagenes*/
+.img{                     /*se estiliza las imagenes CESAR*/
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
