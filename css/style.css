@@ -2,12 +2,21 @@
     background-color: green;
 }
 
-#text{                                   /*estilo a fondo de texto CESAR*/
-    background-color: aliceblue;
+#filaJob, #filaHome{                                   /*estilo a fondo de texto CESAR*/
+    background-color: #e9eff5;
     text-align: center;
     margin-top: 5rem;
     margin-bottom: 5rem;
     border-radius: 20px;
+    
+}
+
+.text{
+    font-size: 20px;
+    
+}
+.colorJob, .colorHome{
+    color: rgb(160, 160, 160);
 }
 
 /*
@@ -21,8 +30,8 @@
     background: linear-gradient(-90deg,blue,maroon);
 }*/
 
-#section{                                   /*background section CESAR*/
-    background: linear-gradient(-90deg,blue,maroon);
+.fondo{                                   /*background section CESAR*/
+    background: linear-gradient(0deg,rgba(2,0,36,1) 0%,rgba(9,9,121,1) 31%, rgba(5,108,129,1) , green);
 }
 .img{                     /*se estiliza las imagenes CESAR*/
     border-radius: 20px;

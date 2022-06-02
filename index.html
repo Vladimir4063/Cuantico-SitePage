@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Cuantico</title>
 </head>
-<body style="overflow: auto">
+<body style="overflow: auto" class="fondo">
     <nav>
         <div class="nav">
             <h1>Soy el Navbar</h1>
@@ -31,30 +31,36 @@
     
      
 
-    <div class="container text" id="capa" onmouseover="cambiar()" >
-        <div class="row justify-content-center ">                <!--se define una fila y se centran las columnas, CESAR-->
-            <div class="col-sm-12 col-md-12 col-lg-8 " id="text">          <!--se cargan los parametros de las columna IZQUIERDA para pantalla responsive, CESAR-->
-                <h1>Soy el Jobs</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quod?</p>
+    <div class="container">
+        <div class="row justify-content-center" id="filaJob" onmouseover="c()" onmouseout="o()">                <!--se define una fila y se centran las columnas, CESAR-->
+            <div class="col-sm-12 col-md-12 col-lg-8 text" id="textJob" >          <!--se cargan los parametros de las columna IZQUIERDA para pantalla responsive, CESAR-->
+                <h1>Soy el <span >JOB</span></h1>
+                <p class="colorJob" id="pj">cuando recien entras a la web el texto y el fondo estan apagados porque aun no pasaste el mose sobre el
+                    pero cuando pases el mouse el texto se oscurece junto al fondo, y así quedan para decirte que ya leiste por aca,
+                    al mismo tiempo se agranda la letra para obligarnos a leer lo que aca dice
+                </p>
 
             </div>
 
-            <div class=" col-sm-12 col-md-12 col-lg-auto d-flex justify-content-start my-5">          <!--se cargan los parametros de las columna DERECHA para pantalla responsive, CESAR-->
+            <div class=" col-sm-12 col-md-12 col-lg-auto d-flex justify-content-start my-3">          <!--se cargan los parametros de las columna DERECHA para pantalla responsive, CESAR-->
                 <img src="img/Scenes01.svg" width="300px" alt="svg" class="img" >
             </div>
             
         </div>
     </div>
     
-    <div class="container text" id="capa" onmouseover="cambiar()">
-        <div class="row justify-content-center">            <!--se define una fila y se centran las columnas, CESAR-->
-            <div class="col-sm-12 col-md-12 col-lg-8 " id="text">      <!--se cargan los parametros de las columna IZQUIERDA para pantalla responsive, CESAR-->
-                    <h2>Soy el home-1</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ducimus.</p>
+    <div class="container">
+        <div class="row justify-content-center" id="filaHome" onmouseover="d()" onmouseout="p()">            <!--se define una fila y se centran las columnas, CESAR-->
+            <div class="col-sm-12 col-md-12 col-lg-8 text" id="textHome">      <!--se cargan los parametros de las columna IZQUIERDA para pantalla responsive, CESAR-->
+                    <h2 >Soy el home-1</h2>
+                    <p class="colorHome" id="ph">Acá va el Lorem Ipsum, pero yo escribi este texto, para poner algo diferente
+                        normalmente todos hacen lo que la mayoria, pero noe s mi caso, tanto así que decidí
+                        escribir algo diferente solo para ser diferente.
+                    </p>
                                     
                 </div>
 
-                <div class="col-sm-12 col-md-12 col-lg-auto d-flex justify-content-start my-5">      <!--se cargan los parametros de las columna DERECHA para pantalla responsive, CESAR-->
+                <div class="col-sm-12 col-md-12 col-lg-auto d-flex justify-content-start my-3">      <!--se cargan los parametros de las columna DERECHA para pantalla responsive, CESAR-->
                     <img src="img/Scenes02.svg" width="300px" alt="svg2" class="img">
                 </div>
             </div>
@@ -79,12 +85,8 @@
         </div>
     </footer>
 
-    <script href="script/script.js">
-        
-    </script>
+ <script src="script/script.js"></script>   
+  
 
-
-    
-</style>
 </body>
 </html>
