@@ -1,5 +1,5 @@
 function c(){
-    var bg = document.getElementById('filaJob');
+    var bg = document.getElementById('card1');
     var tj = document.getElementById('textJob');
     var pj = document.getElementById('pj');
     tj.style.fontSize = "22px";
@@ -8,7 +8,7 @@ function c(){
 
 }
 function o(){
-    var bg = document.getElementById('filaJob');
+    var bg = document.getElementById('card1');
     var tj = document.getElementById('textJob');
     
     tj.style.fontSize = "20px";
