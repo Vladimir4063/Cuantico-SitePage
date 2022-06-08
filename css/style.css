@@ -1,34 +1,141 @@
-.nav{
+
+html {
+    height:100%;
+  }
+  
+  body {
+    margin:0;
+  }
+
+  .nav{
     background-color: green;
-}
+  }
+  
+  .bg {   /*========= CESAR ========== ANIMACION DE FONDO ========= CESAR ========== ANIMACION DE FONDO =============*/
 
-.jobs{
-    background-color: red;
-}
+    animation:slide 6s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #020024 46%, rgba(9,9,121,1) 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:6s;
+  }
+  
+  .bg3 {
+    animation-duration:7s;
+  }
+  /*========= CESAR ========== FIN ANIMACION DE FONDO ========= CESAR ========== FIN ANIMACION DE FONDO =============*/
+  .content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+  }
+  
+  h2 {
+    font-family:monospace;
+  }
+  
 
-.info{
-    background-color: blue;
-}
+  
+  #filaServicio, #filaEtica{                                   /*estilo a fondo de texto CESAR*/
+    background-color: white;
+    opacity: 0.95;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border-radius: 20px;
+    
+  }
 
-.footer {
+  #card1, #card2, #card3 {
+    
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+
+  }
+
+  .icco1, .icco2, .icco3{
+    text-align: center;
+    width: 30%;
+    height: 30%;
+  }
+  
+  .text{
+    font-size: 20px;
+    
+  }
+
+  
+  
+  img{                     /*se estiliza las imagenes CESAR*/
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .footer {
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 31%, rgba(5,108,129,1) 100%);
+    background: linear-gradient(90deg, #052c81 0%, #090979 31%, #020024 100%);
     padding: 2.2rem;
     text-align: center;
-}
-
-.textFooterCopyright {
+  }
+  
+  .textFooterCopyright {
     color: aliceblue;
     margin: 0;
-}
-
-.textFooterLinkWebSite{
+  }
+  
+  .textFooterLinkWebSite{
     color: aliceblue;
     margin: 0;
     padding-bottom: 40px;
+  
+  }
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
 
-}
 
-a {
-    text-decoration: none;
+
+
+
+@media (max-width: 768px){
+    #intro, #equipo{
+        width:90% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+
+    }
+
+    #bg-contacto{
+       
+        top: -110px;
+    }
 }
+  
