@@ -7,8 +7,8 @@ html {
     margin:0;
   }
 
-  .nav{
-    background-color: green;
+  .navbarSite a{
+    color:#020024;
   }
   
   .bg {   /*========= CESAR ========== ANIMACION DE FONDO ========= CESAR ========== ANIMACION DE FONDO =============*/
@@ -49,8 +49,6 @@ html {
   h2 {
     font-family:monospace;
   }
-  
-
   
   #filaServicio, #filaEtica{                                   /*estilo a fondo de texto CESAR*/
     background-color: white;
@@ -102,8 +100,6 @@ html {
     
   }
 
-  
-  
   img{                     /*se estiliza las imagenes CESAR*/
     border-radius: 20px;
     margin-left: auto;
