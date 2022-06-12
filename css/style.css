@@ -9,30 +9,10 @@ html {
 
   .navbarSite a{
     color:#020024;
-  }
   
-  .bg {   /*========= CESAR ========== ANIMACION DE FONDO ========= CESAR ========== ANIMACION DE FONDO =============*/
+  }
 
-    animation:slide 6s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, #020024 46%, rgba(9,9,121,1) 50%);
-    bottom:0;
-    left:-50%;
-    opacity:.5;
-    position:fixed;
-    right:-50%;
-    top:0;
-    z-index:-1;
-  }
   
-  .bg2 {
-    animation-direction:alternate-reverse;
-    animation-duration:6s;
-  }
-  
-  .bg3 {
-    animation-duration:7s;
-  }
-  /*========= CESAR ========== FIN ANIMACION DE FONDO ========= CESAR ========== FIN ANIMACION DE FONDO =============*/
   .content {
     background-color:rgba(255,255,255,.8);
     border-radius:.25em;
@@ -49,8 +29,8 @@ html {
   h2 {
     font-family:monospace;
   }
-  
-  #filaServicio, #filaEtica{                                   /*estilo a fondo de texto CESAR*/
+
+  #filaServicio, #filaEtica, #filaContacto{                                   /*estilo frame de texto CESAR*/
     background-color: white;
     opacity: 0.95;
     box-shadow:0 0 .25em rgba(0,0,0,.25);
