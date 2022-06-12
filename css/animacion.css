@@ -4,11 +4,11 @@
 
   .bg {   /*========= CESAR ========== ANIMACION DE FONDO ========= CESAR ========== ANIMACION DE FONDO =============*/
 
-    animation:slide 6s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, #a9a2f0 46%, #86868b 50%);
+    animation:slide 100s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #0b082e 60%, #86868b 50%);
     bottom:0;
     left:-50%;
-    opacity:.5;
+    opacity:0.5;
     position:fixed;
     right:-50%;
     top:0;
@@ -17,11 +17,11 @@
   
   .bg2 {
     animation-direction:alternate-reverse;
-    animation-duration:6s;
+    animation-duration:25s;
   }
   
   .bg3 {
-    animation-duration:7s;
+    animation-duration:50s;
   }
   /*========= CESAR ========== FIN ANIMACION DE FONDO ========= CESAR ========== FIN ANIMACION DE FONDO =============*/
 

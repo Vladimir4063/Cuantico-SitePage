@@ -23,10 +23,10 @@
     <nav class="navbar navbar-expand navbar-black bg-light navbarSite">
         <div class="container">
             <div class="nav navbar-nav mx-auto">
-                <a class="nav-item nav-link active" href="#">Nuestra empresa</a>
-                <a class="nav-item nav-link" href="#">¿Como trabajamos?</a>
-                <a class="nav-item nav-link" href="#">Servicios</a>
-                <a class="nav-item nav-link" href="#">Contacto</a>
+                <a class="nav-item nav-link active" href="index.html">Nuestra empresa</a>
+                <a class="nav-item nav-link" href="#trabajo">¿Como trabajamos?</a>
+                <a class="nav-item nav-link" href="#servicios">Servicios</a>
+                <a class="nav-item nav-link" href="#contacto">Contacto</a>
                 <a class="nav-item nav-link" href="#">EN</a>
             </div>
         </div>
@@ -42,7 +42,7 @@
 
         <section class="container-fluid py-5" style="text-align: center">
            
-            <div class="col-md-9 m-auto">
+            <div class="col-md-11 m-auto">
                 <h1 class="text-white" style="visibility: visible;">
                         AcA esTaría Bueno MeTEr un Slider de clientes</h1>
                       
@@ -61,7 +61,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 wow animate__animated animate__fadeInDown animate__delay-0.5s">
+                    <div class="col-md-4 wow animate__animated animate__fadeInDown">
                         <div class="card cardHover shadow-sm mx-auto" style="min-width: 12rem; max-width: 18rem;" id="card2">
                             <img src= "ico/global.svg" class="icco2" alt="global">
                                 <div class="card-body mt-0 pt-0">
@@ -90,7 +90,7 @@
         <section class="border-buttom border-secondary border-1 section container-flex row w-75 mx-auto servicio-fila" id="filaServicio">
             <!-- frame servicios -->
                        
-                <h2 class="my-3 animate__animated animate__fadeIn">NUESTROS SERVICIOS</h2>
+                <h2 class="my-3 animate__animated animate__fadeIn" id="servicios">NUESTROS SERVICIOS</h2>
             <div class="">
                 <div class="col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
                     <img class= "wow animate__animated animate__pulse animate__delay-1s" src="img/Scenes01.svg" alt="diseñoweb" width="180" height="160">
@@ -114,26 +114,27 @@
                 <div class="col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
                     <img class= "wow animate__animated animate__pulse animate__delay-1s" src="img/Scenes01.svg" alt="redessociales" width="180" height="160">
                     <div class="wow animate__animated animate__fadeInRight">
-                        <h3 class="fs-5 mt-4 px-4 pb-1 ">Redes Sociales</h3>
+                        <h3 class="fs-5 mt-4 px-4 pb-1  ">Redes Sociales</h3>
                         <p class="fx-4">es la agencia donde te ayudamos a establecer tu presencia online. SEO, páginas WEB, tiendas virtuales,
                             redes sociales</p>
                     </div>
                 </div>
 
-               <!--<div class="col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
-                     <div>
-                        <h3 class="fs-5 mt-4 px-4 pb-1">Redes Sociales</h3>
+                <div class="col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                    
+                    <div class="wow animate__animated animate__fadeInLeft">
+                        <h3 class="fs-5 mt-4 px-4 pb-1">Aplicaciones Móviles</h3>
                         <p class="fx-4">es la agencia donde te ayudamos a establecer tu presencia online. SEO, páginas WEB, tiendas virtuales,
                             redes sociales</p>
-                    <img src="img/Scenes02.svg" alt="redessociales" width="180" height="160">        
                     </div>
-                </div>--> 
+                    <img class= "wow animate__animated animate__pulse animate__delay-1s" src="img/Scenes02.svg" alt="tiendasvirtuales" width="180" height="160">
+                </div> 
               
         </section>    
         
         <!-- ÉTICA - CESAR -->
         <section class="border-buttom border-secondary border-1 section container-flex row w-75 mx-auto servicio-fila" id="filaEtica">
-            <h2 class="text-center fw-normal my-3">ETICA EMPRESARIAL</h2>
+            <h2 class="text-center fw-normal my-3" id="trabajo">¿COMO TRABAJAMOS?</h2>
             <div class="col-sm-12 col-md-12 col-lg-8 text " id="textHome">     
                 
                 <p class="colorHome wow animate__animated animate__zoomIn" id="ph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati porro molestiae doloribus dolorum ipsa atque consectetur. Ut iste consequuntur expedita tenetur harum nam id temporibus consectetur dignissimos itaque rerum dolorum magni asperiores nisi voluptatibus adipisci, distinctio consequatur praesentium maxime perferendis perspiciatis hic quasi iure ea. Accusamus illum velit eligendi pariatur.
@@ -149,7 +150,7 @@
         <!-- CONTACTO - CESAR -->
         <section class="border-buttom border-secondary border-1 section container-flex row w-75 mx-auto servicio-fila" id="filaContacto">
             <div class="container-fluid">
-                <h2 class="text-center fw-normal my-3">CONTACTO</h2>
+                <h2 class="text-center fw-normal my-3" id="contacto">CONTACTO</h2>
                 <div class="col-md-6 offset-md-3 row py-5">
                     <form class="vg-contact-form" action="php/enviar.php" method="post" enctypte="text/plain">
                         <div class="form-row">
@@ -200,7 +201,7 @@
  <script src="https://wowjs.uk/dist/wow.min.js"></script>
  <script>
     new WOW().init();
-    </script>
+    </script> <!-- se inicializa script animacion-->
  
 </body>
 </html>
