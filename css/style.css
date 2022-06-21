@@ -1,139 +1,145 @@
 
 html {
     height:100%;
-  }
+}
+
+body {
+  margin:0;
+}
+
+.navbarSite a{
+  color:#020024;
+
+}
+
+
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+h2 {
+  font-family:monospace;
+}
+
+#filaServicio, #filaEtica, #filaContacto{                                   /*estilo frame de texto CESAR*/
+  background-color: white;
+  opacity: 0.95;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  border-radius: 20px;
   
-  body {
-    margin:0;
-  }
+}
 
-  .navbarSite a{
-    color:#020024;
+/* ********** */
+/* CARD HOVER */
+/* ********** */
+
+.cardHover {
+  transition: all 0.25s;
+}
+
+.cardHover:hover {
+  /* transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0,0,0,3); */
+  transform: translateY(-15px);
+  transition: all 0.25s;
+}
+#card1, #card2, #card3 {
   
-  }
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 15px;
+  height: 300px;
+}
 
+.card-boton{
+  color: grey;
+  margin: 10px;
+}
+
+.icco1, .icco2, .icco3{
+  text-align: center;
+  width: 30%;
+  height: 30%;
+}
+
+.text{
+  font-size: 20px;
   
-  .content {
-    background-color:rgba(255,255,255,.8);
-    border-radius:.25em;
-    box-shadow:0 0 .25em rgba(0,0,0,.25);
-    box-sizing:border-box;
-    left:50%;
-    padding:10vmin;
-    position:fixed;
-    text-align:center;
-    top:50%;
-    transform:translate(-50%, -50%);
-  }
-  
-  h2 {
-    font-family:monospace;
-  }
+}
 
-  #filaServicio, #filaEtica, #filaContacto{                                   /*estilo frame de texto CESAR*/
-    background-color: white;
-    opacity: 0.95;
-    box-shadow:0 0 .25em rgba(0,0,0,.25);
-    text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    border-radius: 20px;
-    
-  }
+img{                     /*se estiliza las imagenes CESAR*/
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  /* ********** */
-  /* CARD HOVER */
-  /* ********** */
+/**************/
+/*** FOOTER ***/
+/**************/
 
-  .cardHover {
-    transition: all 0.25s;
-  }
+.footer {
+  background: #202020;
+  padding: 2.2rem;
+  text-align: center;
+  list-style: none;
+}
 
-  .cardHover:hover {
-    /* transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0,0,0,3); */
-    transform: translateY(-15px);
-    transition: all 0.25s;
-  }
-  #card1, #card2, #card3 {
-    
-    box-shadow:0 0 .25em rgba(0,0,0,.25);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 15px;
-    height: 300px;
-  }
+.footer a{
+  text-decoration: none;
+}
 
-  .card-boton{
-    color: grey;
-    margin: 10px;
-  }
+.footer a li:hover{
+  color: blue;
+}
 
-  .icco1, .icco2, .icco3{
-    text-align: center;
-    width: 30%;
-    height: 30%;
-  }
-  
-  .text{
-    font-size: 20px;
-    
-  }
+.textFooterCopyright {
+  color: aliceblue;
+  margin: 0;
+}
 
-  img{                     /*se estiliza las imagenes CESAR*/
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.textFooterLinkWebSite{
+  color: aliceblue;
+  margin: 0;
+}
 
-  /**************/
-  /*** FOOTER ***/
-  /**************/
-  
-  .footer {
-    background: #202020;
-    padding: 2.2rem;
-    text-align: center;
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
   }
-  
-  .textFooterCopyright {
-    color: aliceblue;
-    margin: 0;
+  100% {
+    transform:translateX(25%);
   }
-  
-  .textFooterLinkWebSite{
-    color: aliceblue;
-    margin: 0;
-    padding-bottom: 40px;
-    /* text-decoration: none; */
-  }
-  
-  @keyframes slide {
-    0% {
-      transform:translateX(-25%);
-    }
-    100% {
-      transform:translateX(25%);
-    }
-  }
+}
 
 
 
 
 
 @media (max-width: 768px){
-    #intro, #equipo{
-        width:90% !important;
-    }
-    .servicio-fila{
-        width: 100% !important;
-        text-align: center;
+  #intro, #equipo{
+      width:90% !important;
+  }
+  .servicio-fila{
+      width: 100% !important;
+      text-align: center;
 
-    }
+  }
 
-    #bg-contacto{
-       
-        top: -110px;
-    }
+  #bg-contacto{
+      
+      top: -110px;
+  }
 }
-  
